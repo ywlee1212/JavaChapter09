@@ -36,9 +36,12 @@ public class Problem09_06 extends JFrame {
 		for (int i = 0; i < jlabel.length; i++) {
 			jlabel[i] = new JLabel(Integer.toString(i));
 			jlabel[i].setFont(fnt);
-			jlabel[i].setForeground(Color.WHITE);
-			jlabel[i].setBackground(Color.BLUE);
+			jlabel[i].setForeground(
+					new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
+			jlabel[i].setBackground(
+					new Color((int) (Math.random() * 255), (int) (Math.random() * 255), (int) (Math.random() * 255)));
 			jlabel[i].setOpaque(true);
+			jlabel[i].setHorizontalAlignment(JLabel.CENTER);
 			locationX = (int) (Math.random() * 200) + 50;
 			locationY = (int) (Math.random() * 200) + 50;
 			jlabel[i].setBounds(locationX, locationY, jlabelWidth, jlabelHeight);
