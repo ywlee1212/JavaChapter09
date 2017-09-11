@@ -82,22 +82,22 @@ public class CalculatorDesign extends JFrame {
 	}
 
 	public void btnGenerate() {
-		ImageIcon onImg = new ImageIcon("images/ON.png");
+		ImageIcon onImg = new ImageIcon("Chapter09/images/ON.png");
 		on = new JButton(onImg);
 		on.setBounds(margin, margin, btnWidth, btnHeight);
 		lower.add(on);
 
-		ImageIcon mcImg = new ImageIcon("images/MC.png");
+		ImageIcon mcImg = new ImageIcon("Chapter09/images/MC.png");
 		mc = new JButton(mcImg);
 		mc.setBounds(margin + btnWidth + gap, margin, btnWidth, btnHeight);
 		lower.add(mc);
 
-		ImageIcon divImg = new ImageIcon("images/div.png");
+		ImageIcon divImg = new ImageIcon("Chapter09/images/div.png");
 		div = new JButton(divImg);
 		div.setBounds(margin + btnWidth * 2 + gap * 2, margin, btnWidth, btnHeight);
 		lower.add(div);
 
-		ImageIcon mulImg = new ImageIcon("images/mul.png");
+		ImageIcon mulImg = new ImageIcon("Chapter09/images/mul.png");
 		mul = new JButton(mulImg);
 		mul.setBounds(margin + btnWidth * 3 + gap * 3, margin, btnWidth, btnHeight);
 		lower.add(mul);
@@ -123,7 +123,7 @@ public class CalculatorDesign extends JFrame {
 		nine.setForeground(Color.WHITE);
 		lower.add(nine);
 
-		ImageIcon addImg = new ImageIcon("images/add.png");
+		ImageIcon addImg = new ImageIcon("Chapter09/images/add.png");
 		add = new JButton(addImg);
 		add.setBounds(margin + btnWidth * 3 + gap * 3, margin + btnHeight + gap, btnWidth, btnHeight);
 		lower.add(add);
@@ -149,7 +149,7 @@ public class CalculatorDesign extends JFrame {
 		six.setForeground(Color.WHITE);
 		lower.add(six);
 
-		ImageIcon subImg = new ImageIcon("images/sub.png");
+		ImageIcon subImg = new ImageIcon("Chapter09/images/sub.png");
 		sub = new JButton(subImg);
 		sub.setBounds(margin + btnWidth * 3 + gap * 3, margin + btnHeight * 2 + gap * 2, btnWidth, btnHeight);
 		lower.add(sub);
@@ -175,7 +175,7 @@ public class CalculatorDesign extends JFrame {
 		three.setForeground(Color.WHITE);
 		lower.add(three);
 
-		ImageIcon equalImg = new ImageIcon("images/equal.png");
+		ImageIcon equalImg = new ImageIcon("Chapter09/images/equal.png");
 		equal = new JButton(equalImg);
 		equal.setBounds(margin + btnWidth * 3 + gap * 3, margin + btnHeight * 3 + gap * 3, btnWidth,
 				btnHeight * 2 + gap);
