@@ -12,6 +12,7 @@ import javax.swing.JTextField;
 
 public class CalculatorDesign extends JFrame {
 	Container ct;
+	//test
 	JPanel upper, lower;
 	JButton on, mc, div, mul, add, sub, equal, mod, comma;
 	JButton zero, one, two, three, four, five, six, seven, eight, nine;
