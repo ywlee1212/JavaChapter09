@@ -10,7 +10,7 @@ import java.awt.Color;
 
 public class Problem09_05 extends JFrame {
 
-	Container ct;
+	Container ct;//수정합니다.
 	JLabel[] jlbl = new JLabel[16];
 
 	Color[] color = { Color.red, Color.orange, Color.yellow, Color.GREEN, Color.cyan, Color.BLUE, Color.magenta,
