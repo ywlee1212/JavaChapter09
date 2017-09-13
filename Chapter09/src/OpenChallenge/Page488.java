@@ -17,21 +17,21 @@ public class Page488 extends JFrame {
 	Container ct;
 	JPanel upper, center;
 	JButton open, read, close;
-	JLabel hello, love, java;
+	JLabel hello, love, ice;
 	ImageIcon javaImage;
 
-	int winWidth = 400, winHeight = 400;
+	int winWidth = 660, winHeight = 700;
 	int centerWidth, centerHeight;
 
 	public Page488() {
-		this.setTitle("간단한 스윙 응용프로그램 만들기");
+		this.setTitle("9장 실습- 이양원");
 		this.setDefaultCloseOperation(EXIT_ON_CLOSE);
 
 		ct = this.getContentPane();
 
 		upper = new JPanel();
-//		center = new JPanel();
-		center=new MyPanel();
+		center = new JPanel();
+//		center=new MyPanel();
 	
 
 		upper.setBackground(new Color(186, 189, 186));// BD,BA,BD
@@ -46,7 +46,7 @@ public class Page488 extends JFrame {
 		center.setLayout(null);
 
 		hello = new JLabel("Hello");
-		hello.setBounds(0, 0, 50, 30);
+		hello.setBounds(0, 0, 100, 30);
 		hello.setBackground(Color.BLUE);
 		hello.setOpaque(true);
 		hello.setForeground(Color.WHITE);
@@ -54,12 +54,12 @@ public class Page488 extends JFrame {
 
 		love = new JLabel("Love");
 		love.setBounds(200, 150, 50, 30);
-		java = new JLabel(javaImage);
-		java.setBounds(50, 200, iw, ih);// image size : (100,106)
+		ice = new JLabel("ice.honam.ac.kr");
+		ice.setBounds(400, 400, 200, 30);// image size : (100,106)
 
 		center.add(hello);
 		center.add(love);
-		center.add(java);
+		center.add(ice);
 
 		upper.add(open);
 		upper.add(read);
