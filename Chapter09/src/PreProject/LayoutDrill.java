@@ -11,6 +11,7 @@ import javax.swing.JLabel;
 import javax.swing.JPanel;
 
 public class LayoutDrill extends JFrame {
+	// Lecture on 2017. Sept. 18
 
 	Container ct;
 	JPanel north, south;
